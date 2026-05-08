@@ -70,7 +70,6 @@ Con nodos adicionales en el Ejercicio 2: **1, 3, 18 y 25**.
 
 ---
 
-
 ## Ejecución
 
 ### C++
@@ -79,6 +78,7 @@ Con nodos adicionales en el Ejercicio 2: **1, 3, 18 y 25**.
 cd src/cpp
 g++ main.cpp -o recorridos
 ./recorridos
+![alt text](image-1.png)
 ```
 
 ### Java
