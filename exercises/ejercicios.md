@@ -35,29 +35,31 @@ Modifique el árbol anterior agregando los nodos 1, 3, 18 y 25. Ejecute nuevamen
 
 Implemente una función que cuente la cantidad total de nodos del árbol.
 
-Función para contar nodos totales
+Función para contar nodos totales: 
+
 C++:
-![alt text](image-10.png)
+- ![alt text](image-10.png)
 
 Java:
-![alt text](image-11.png)
+- ![alt text](image-11.png)
 
 Impresión en pantalla:
-![alt text](image-8.png)
+- ![alt text](image-8.png)
 
 ## Ejercicio 4
 
 Implemente una función que cuente las hojas del árbol.
 
 Función para contar las hojas del arbol:
+
 C++:
-![alt text](image-12.png)
+- ![alt text](image-12.png)
 
 Java:
-![alt text](image-13.png)
+- ![alt text](image-13.png)
 
 Impresión en pantalla:
-![alt text](image-9.png)
+- ![alt text](image-9.png)
 
 ## Ejercicio 5 aplicado al proyecto final
 
@@ -79,14 +81,13 @@ Explique qué recorrido usaría para:
 
 Aplicando el ejemplo mostrado al proyecto SmartCampus UTA el resultado del arbol binario serio al siguiente:
 
-          SmartCampus UTA
-           /           \
-     Usuarios         Gestión
-      /    \          /     \
-
-Registrar Buscar Trámites Reportes
-/ \
- Turnos Documentos
+                  SmartCampus UTA
+                   /           \
+             Usuarios         Gestión
+              /    \          /     \
+         Registrar Buscar Trámites Reportes
+                           /   \
+                       Turnos Documentos
 
 Explicación de los tres recorridos:
 
