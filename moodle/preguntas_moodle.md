@@ -50,3 +50,13 @@ void inorden(Nodo* raiz) {
 ```
 
 Respuesta esperada: inorden
+
+Codigo completo:
+```cpp
+void inorden(Nodo* raiz) {
+    if (raiz == nullptr) return;
+    inorden(raiz->izquierda);
+    cout << raiz->dato << " ";
+    inorden(raiz->derecha);
+}
+```
