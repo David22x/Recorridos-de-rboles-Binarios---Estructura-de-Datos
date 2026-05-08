@@ -8,13 +8,13 @@
 
 ---
 
-## 📌 Descripción general
+## Descripción general
 
 Este repositorio contiene la implementación de los principales recorridos de árboles binarios utilizando **C++** y **Java**. Se aplican conceptos de estructuras de datos dinámicas, recursividad y colas (BFS), con el objetivo de analizar y comparar el comportamiento de cada recorrido sobre el mismo árbol.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 - Implementar y comparar recorridos DFS (Inorden, Preorden, Postorden) y BFS en C++ y Java.
 - Aplicar recursividad para los recorridos en profundidad.
@@ -23,7 +23,7 @@ Este repositorio contiene la implementación de los principales recorridos de á
 
 ---
 
-## 📁 Estructura del repositorio
+## Estructura del repositorio
 
 ```
 tarea2.2_recorridos_arboles_uta/
@@ -43,7 +43,7 @@ tarea2.2_recorridos_arboles_uta/
 
 ---
 
-## 🌲 Árbol utilizado
+## Árbol utilizado
 
 El árbol binario trabajado en los ejercicios es el siguiente:
 
@@ -59,7 +59,7 @@ Con nodos adicionales en el Ejercicio 2: **1, 3, 18 y 25**.
 
 ---
 
-## 📐 Reglas de recorrido
+## Reglas de recorrido
 
 | Recorrido | Orden de visita            | Tipo |
 | --------- | -------------------------- | ---- |
@@ -92,7 +92,7 @@ java Main
 
 ---
 
-## ✅ Salida esperada en consola
+## Salida esperada en consola
 
 ```
 RECORRIDOS DE ARBOLES BINARIOS - UTA
@@ -114,7 +114,7 @@ BFS:        10 5 15 2 7 12 20
 
 ---
 
-## 🔍 Comparación C++ vs Java
+## Comparación C++ vs Java
 
 | Aspecto                | C++                                     | Java                           |
 | ---------------------- | --------------------------------------- | ------------------------------ |
@@ -127,7 +127,7 @@ BFS:        10 5 15 2 7 12 20
 
 ---
 
-## 🤔 Preguntas de reflexión
+## Preguntas de reflexión
 
 1. **¿Qué recorrido sirve para ordenar valores en un BST?**
    El **Inorden** (Izquierda → Raíz → Derecha), ya que en un Árbol Binario de Búsqueda visita los nodos en orden ascendente.
@@ -143,18 +143,6 @@ BFS:        10 5 15 2 7 12 20
 
 5. **¿En qué caso real se puede usar Postorden?**
    Para eliminar un árbol de memoria (liberar hijos antes que el padre), o para evaluar expresiones matemáticas en árboles de expresiones (operandos antes que el operador).
-
----
-
-## 🤖 Uso de IA documentado
-
-Durante esta práctica se utilizó **Claude (Anthropic)** como herramienta de apoyo para:
-
-- Verificar la lógica de los recorridos implementados.
-- Generar la documentación y estructura del README.
-- Comparar las implementaciones en C++ y Java.
-
-El código base fue desarrollado por el equipo y validado con la IA como apoyo, no como sustituto del aprendizaje.
 
 ---
 
