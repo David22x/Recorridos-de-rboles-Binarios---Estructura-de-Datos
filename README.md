@@ -1,4 +1,4 @@
-# 🌳 Recorridos de Árboles Binarios
+#  Recorridos de Árboles Binarios
 
 **Universidad Técnica de Ambato**
 **Carrera:** Ingeniería de Software
